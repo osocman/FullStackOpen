@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/blogs
+Content-Type: application/json
+
+{
+    "title" : "Time for more",
+    "author" : "J.K. Rowling",
+    "url" : "www.antoherbrokenlink.net",
+    "likes": 12
+}
