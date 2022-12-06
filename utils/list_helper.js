@@ -22,10 +22,8 @@ const favoriteBlog = (blogs) => {
 
 const getAuthorWithMost = (filter, blogs) => {
   if (blogs.length === 0) return 0;
-  // Making an array objects authorsInfo:
-  // [{author: name, [filter]: amount} ...]
-  const allAuthors = [];
-  const authorsInfo = [];
+  const allAuthors = []; // will contain all authors
+  const authorsInfo = []; // array will contain all authors with data based on filter
   blogs.forEach((blog) => {
     const incrementAmount = filter === 'blogs' ? 1 : blog[filter];
     if (allAuthors.includes(blog.author)) {
@@ -40,7 +38,7 @@ const getAuthorWithMost = (filter, blogs) => {
     }
   });
 
-  // Getting and returning the authorsInfo object with highest amount of filter
+  // Determining the authorsInfo object with highest amount of filter
   let authorWithMost = authorsInfo[0];
   authorsInfo.forEach((authorInfo) => {
     if (authorWithMost[filter] < authorInfo[filter]) {

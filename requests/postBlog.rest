@@ -2,8 +2,8 @@ POST http://localhost:8080/api/blogs
 Content-Type: application/json
 
 {
-    "title" : "Time for more",
-    "author" : "J.K. Rowling",
-    "url" : "www.antoherbrokenlink.net",
-    "likes": 12
+    "title" : "The Third King",
+    "author" : "Micheal Jackson",
+    "url" : "www.Jackson.io",
+    "likes": 2
 }
