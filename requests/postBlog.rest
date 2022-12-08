@@ -2,8 +2,8 @@ POST http://localhost:8080/api/blogs
 Content-Type: application/json
 
 {
-    "title" : "The Third King",
-    "author" : "Micheal Jackson",
-    "url" : "www.Jackson.io",
-    "likes": 2
+    "title" : "A New Virtual Space",
+    "author" : "Mister Maniac",
+    "url" : "www.mania.com",
+    "likes": 32
 }

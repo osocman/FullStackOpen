@@ -1,5 +1,3 @@
-console.log('running blog model');
-
 const mongoose = require('mongoose');
 
 const blogSchema = new mongoose.Schema({

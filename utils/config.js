@@ -1,5 +1,3 @@
-console.log('running config');
-
 require('dotenv').config();
 
 const { PORT } = process.env;

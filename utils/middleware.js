@@ -1,5 +1,3 @@
-console.log('running middleware');
-
 const logger = require('./logger');
 
 // eslint-disable-next-line no-unused-vars

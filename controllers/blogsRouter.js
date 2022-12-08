@@ -1,5 +1,3 @@
-console.log('running blogsRouter');
-
 const express = require('express');
 const Blog = require('../models/blog');
 
