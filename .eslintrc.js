@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 0,
     eqeqeq: 'error',
     'no-console': 'off',
     'no-unused-vars': 'off',

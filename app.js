@@ -27,4 +27,8 @@ app.use(middleware.requestLogger);
 //* CONTROLLERS
 app.use('/api/blogs', blogsRouter);
 
+//* MIDDLEWARE
+app.use(middleware.errorHandler);
+app.use(middleware.unknowEndpoint);
+
 module.exports = app;
