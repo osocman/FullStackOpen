@@ -16,6 +16,11 @@ const blogSchema = new mongoose.Schema({
     type: String,
     default: 0,
   },
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true,
+  },
 });
 
 // when toJSON() is called before sending data to user,

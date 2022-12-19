@@ -1,0 +1,6 @@
+PUT http://localhost:8080/api/users/63a033c0a9ff89db50852df4
+Content-Type: application/json
+
+{
+  "blogs": ["63a0340fa9ff89db50852df7"]
+}

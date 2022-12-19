@@ -2,8 +2,8 @@ POST http://localhost:8080/api/blogs
 Content-Type: application/json
 
 {
-    "title" : "A New Virtual Space",
-    "author" : "Mister Maniac",
-    "url" : "www.mania.com",
-    "likes": 32
+    "title" : "A new Hope",
+    "author" : "George Lucas",
+    "url" : "www.StarWars.org",
+    "likes": 11
 }
