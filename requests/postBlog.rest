@@ -1,9 +1,10 @@
 POST http://localhost:8080/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphY2tTcGFycm93IiwiaWQiOiI2M2EwMzNjMGE5ZmY4OWRiNTA4NTJkZjQiLCJpYXQiOjE2NzE1Mjc2NzR9.wRaX-383GZQKADdMJFN0vvNn8zjL07FRs6Mzgz1gz2w
 
 {
-    "title" : "A new Hope",
-    "author" : "George Lucas",
-    "url" : "www.StarWars.org",
-    "likes": 11
+    "title" : "About the use of Web Tokens",
+    "author" : "Mister Mastermind",
+    "url" : "www.Hacking.Io",
+    "likes": 73
 }

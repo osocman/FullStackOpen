@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema({
 });
 
 // When converting to JSON, ._id should be .id
-// and passwordHash should never be visible
+// and passwordHash should never be returned
 userSchema.set('toJSON', {
   transform: (document, returnedObject) => {
     returnedObject.id = returnedObject._id.toString();
